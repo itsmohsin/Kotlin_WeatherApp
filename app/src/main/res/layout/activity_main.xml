@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/merriweathersans_bold"
-        android:text="Tuesday"
+        android:text="Today's Day"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/maxTemp"
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/merriweathersans_medium"
-        android:text="TextView"
+        android:text="Today"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -138,7 +138,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/merriweathersans_regular"
-        android:text="1 August 2023"
+        android:text="Today's Date"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
         app:layout_constraintEnd_toEndOf="@+id/day"
@@ -208,7 +208,7 @@
                     android:src="@drawable/wind" />
 
                 <TextView
-                    android:id="@+id/wind"
+                    android:id="@+id/windSpeed"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -276,7 +276,7 @@
                     android:src="@drawable/sunrise" />
 
                 <TextView
-                    android:id="@+id/sunrise"
+                    android:id="@+id/sunRise"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
@@ -309,7 +309,7 @@
                     android:src="@drawable/sunset" />
 
                 <TextView
-                    android:id="@+id/sunset"
+                    android:id="@+id/sunSet"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/merriweathersans_medium"
